@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-out=$(./hello.sh)
+out=$(bash hello.sh)
 
 if [ "${out}" == "hello" ];then
   echo "GOOD: test pass"
